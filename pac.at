@@ -21,15 +21,15 @@ description: "Photo Gallery - album tabs, search/sort/density toolbar, thumbnail
 scene: "ui"
 render: "vue"
 api: "rust"
-front_port: 4029
-back_port: 4429
-photo_root: "C:\\Users\\zhaop\\Pictures"
+front_port: 17832
+back_port: 17833
+photo_root: ""
 icon: "image"
-title: "Photo Gallery"
-title_zh: "照片图库"
+title: "Photos"
+title_zh: "图库"
 category: "media"
 desktop: "true"
 
 dep stylekit {
-    path: "../stylekit"
+    path: "vendor/stylekit"
 }
