@@ -1,0 +1,194 @@
+{
+  "repository": "auto-photos",
+  "date": "2026-10-03",
+  "sources": [
+    {
+      "repo": "auto-lang",
+      "commit": "17292c07e792e80d4e4da5495fc3fc2917e8aa1e",
+      "path": "examples/ui/029-photo-gallery",
+      "primary": true,
+      "fileCount": 4,
+      "pacFields": {
+        "name": "photo-gallery",
+        "version": "0.2.0",
+        "description": "Photo Gallery - album tabs, search/sort/density toolbar, thumbnail grid & fullscreen viewer with live backend scan (PLAN-043)",
+        "scene": "ui",
+        "render": "vue",
+        "api": "rust",
+        "front_port": "4029",
+        "back_port": "4429",
+        "photo_root": "C:\\\\Users\\\\zhaop\\\\Pictures",
+        "icon": "image",
+        "title": "Photo Gallery",
+        "title_zh": "照片图库",
+        "category": "media",
+        "desktop": "true"
+      },
+      "files": [
+        {
+          "sourcePath": "examples/ui/029-photo-gallery/SPEC.md",
+          "path": "SPEC.md",
+          "sha256": "87cb2d8d6d1a33a91961a2e95271dccb546b8854233751aa013fffdedf62bf13"
+        },
+        {
+          "sourcePath": "examples/ui/029-photo-gallery/pac.at",
+          "path": "pac.at",
+          "sha256": "6e420cbc5faea1c4a6c3aa0e26d6412aa1f1fa48151d8a684d177337a90592d7"
+        },
+        {
+          "sourcePath": "examples/ui/029-photo-gallery/src/back/api.at",
+          "path": "src/back/api.at",
+          "sha256": "b320055020c01826e5f2f6bbedeaf5417bbd414b357f325f4ea1756d58d3371b"
+        },
+        {
+          "sourcePath": "examples/ui/029-photo-gallery/src/front/app.at",
+          "path": "src/front/app.at",
+          "sha256": "6e4124e01f56df969881837e23e09f702e157f75b661e56d463f3375633bcc91"
+        }
+      ]
+    },
+    {
+      "repo": "auto-lang",
+      "commit": "17292c07e792e80d4e4da5495fc3fc2917e8aa1e",
+      "path": "examples/ui/031-image-viewer",
+      "primary": false,
+      "fileCount": 23,
+      "pacFields": {
+        "name": "image-viewer",
+        "version": "0.1.0",
+        "description": "AutoOS Image Viewer - asynchronous media surface and directory browsing",
+        "scene": "ui",
+        "render": "vue",
+        "api": "rust",
+        "front_port": "3031",
+        "back_port": "8031",
+        "icon": "image",
+        "title": "Image Viewer",
+        "title_zh": "图片查看器",
+        "category": "media",
+        "desktop": "true",
+        "opens": ".jpg,.jpeg,.png,.webp,.gif,.bmp,.svg,.ico",
+        "theme": "dark",
+        "accent": "indigo"
+      },
+      "files": [
+        {
+          "sourcePath": "examples/ui/031-image-viewer/README.md",
+          "path": "references/031-image-viewer/README.md",
+          "sha256": "3c1888bb74e74b0fff7c138463ee2deded46e68f9d999cb7fb16273017cdd5d0"
+        },
+        {
+          "sourcePath": "examples/ui/031-image-viewer/SPEC.md",
+          "path": "references/031-image-viewer/SPEC.md",
+          "sha256": "855ed3e72311c1c944c6118dc6bbbe1cfa3765ed387879945fac18c9876db857"
+        },
+        {
+          "sourcePath": "examples/ui/031-image-viewer/pac.at",
+          "path": "references/031-image-viewer/pac.at",
+          "sha256": "b2d2d241e127c08fa1f1900463b3fc4153fd3a739483f864dbb687766eb3a67f"
+        },
+        {
+          "sourcePath": "examples/ui/031-image-viewer/src/back/api.at",
+          "path": "references/031-image-viewer/src/back/api.at",
+          "sha256": "8a841986388e811c9b00df3aad7e2f63255836f1c7288cc54984135fffb2302f"
+        },
+        {
+          "sourcePath": "examples/ui/031-image-viewer/src/back/directory_index.at",
+          "path": "references/031-image-viewer/src/back/directory_index.at",
+          "sha256": "5f1098cb503241f8d54d504c8d168ceda27868bcab66bbdce76752fa97440168"
+        },
+        {
+          "sourcePath": "examples/ui/031-image-viewer/src/back/image_service.at",
+          "path": "references/031-image-viewer/src/back/image_service.at",
+          "sha256": "63cea45feb5d7363ea3ddda43470c2728b38700aea30c3960c1a02b16bfab1a1"
+        },
+        {
+          "sourcePath": "examples/ui/031-image-viewer/src/back/types.at",
+          "path": "references/031-image-viewer/src/back/types.at",
+          "sha256": "0ebbb4cc4bffd9a1a6d37d46f37420863b81b0a6c4dfa4fd781011373102f7aa"
+        },
+        {
+          "sourcePath": "examples/ui/031-image-viewer/src/front/app.at",
+          "path": "references/031-image-viewer/src/front/app.at",
+          "sha256": "0c32419f5eeb21609b5e6307f1af556df1dddc2fd0ba0315ac079f6df2b8c0f8"
+        },
+        {
+          "sourcePath": "examples/ui/031-image-viewer/src/front/image_viewport.at",
+          "path": "references/031-image-viewer/src/front/image_viewport.at",
+          "sha256": "84d748abdfae2a7b5bfca37592b7c8757b3af5250e14011e6d4b7e914b552525"
+        },
+        {
+          "sourcePath": "examples/ui/031-image-viewer/tests/README.md",
+          "path": "references/031-image-viewer/tests/README.md",
+          "sha256": "edc9cbf4483f0f604a68fe8d1b11fad67efd4b837c7395118c3b37111e2230df"
+        },
+        {
+          "sourcePath": "examples/ui/031-image-viewer/tests/fixtures/alpha-2x1.png",
+          "path": "references/031-image-viewer/tests/fixtures/alpha-2x1.png",
+          "sha256": "f0d036105976f676bde126e7e9ef89246548580a9af218d5d76174bd9058280d"
+        },
+        {
+          "sourcePath": "examples/ui/031-image-viewer/tests/fixtures/corrupt.bin",
+          "path": "references/031-image-viewer/tests/fixtures/corrupt.bin",
+          "sha256": "f2e2c6db1745cc40df646dc40c385487c36e4ceb3f1d5c8d6ad1f7620af1ebae"
+        },
+        {
+          "sourcePath": "examples/ui/031-image-viewer/tests/fixtures/manifest.json",
+          "path": "references/031-image-viewer/tests/fixtures/manifest.json",
+          "sha256": "b09a719ccc23739d7c9f830f8cfa52a540c8f25ae85fcd1734dd5a5dc24e0dae"
+        },
+        {
+          "sourcePath": "examples/ui/031-image-viewer/tests/fixtures/orientation-6.jpg",
+          "path": "references/031-image-viewer/tests/fixtures/orientation-6.jpg",
+          "sha256": "fac32fe541b57de6ae72db4c62269a7e6dc7aee8a9e81321ff8e897c1714ab11"
+        },
+        {
+          "sourcePath": "examples/ui/031-image-viewer/tests/fixtures/rgb-1x1.jpg",
+          "path": "references/031-image-viewer/tests/fixtures/rgb-1x1.jpg",
+          "sha256": "fac32fe541b57de6ae72db4c62269a7e6dc7aee8a9e81321ff8e897c1714ab11"
+        },
+        {
+          "sourcePath": "examples/ui/031-image-viewer/tests/fixtures/rgb-1x1.png",
+          "path": "references/031-image-viewer/tests/fixtures/rgb-1x1.png",
+          "sha256": "1f01e0dab21726507fa46de496ca493a01e076391001cd44161d3e34300b2279"
+        },
+        {
+          "sourcePath": "examples/ui/031-image-viewer/tests/fixtures/rgb-1x1.webp",
+          "path": "references/031-image-viewer/tests/fixtures/rgb-1x1.webp",
+          "sha256": "b8922ffa7540d2e83cf8c9e093c817f48b1aee8263488d1ca72cb03c989965be"
+        },
+        {
+          "sourcePath": "examples/ui/031-image-viewer/tests/fixtures/scenic-320x240.png",
+          "path": "references/031-image-viewer/tests/fixtures/scenic-320x240.png",
+          "sha256": "2391b725d7c2373f2a528a062f4b8c6ebc1fb68f35845674c016a635f23b098f"
+        },
+        {
+          "sourcePath": "examples/ui/031-image-viewer/tests/perf_expectations.json",
+          "path": "references/031-image-viewer/tests/perf_expectations.json",
+          "sha256": "154ddd2210e1efb2855cb186852c76496f16fa23767b80a90b8e6cd13b4a4a70"
+        },
+        {
+          "sourcePath": "examples/ui/031-image-viewer/tests/perf_measure.py",
+          "path": "references/031-image-viewer/tests/perf_measure.py",
+          "sha256": "7ab56ae9fe13bbd9fb61ad1eeab68be2035d1c315275ca29e51dd644638898bb"
+        },
+        {
+          "sourcePath": "examples/ui/031-image-viewer/tests/perf_release.ps1",
+          "path": "references/031-image-viewer/tests/perf_release.ps1",
+          "sha256": "be7e6c0e87fa51c2e1a4d349658ecf9edf8b616fff3197c150a46b3ac7bf596d"
+        },
+        {
+          "sourcePath": "examples/ui/031-image-viewer/tests/vm_matrix.py",
+          "path": "references/031-image-viewer/tests/vm_matrix.py",
+          "sha256": "d9c03ff49560619ff40ba26094940830489606ada47069616da48e2add69292b"
+        },
+        {
+          "sourcePath": "examples/ui/031-image-viewer/tests/vue-actions.json",
+          "path": "references/031-image-viewer/tests/vue-actions.json",
+          "sha256": "9334541253dbcff588d5ff954db94869469522b6eb9b517a523282c15e8048dc"
+        }
+      ]
+    }
+  ],
+  "note": "Exact committed source snapshots; packaging changes follow in a separate commit. References are not additional installed apps."
+}
